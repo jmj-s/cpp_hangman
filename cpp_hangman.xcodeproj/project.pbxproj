@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1788C6B626365BB10044983B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1788C6B526365BB10044983B /* main.cpp */; };
 		1788C6BF26365C420044983B /* welcomeUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1788C6BD26365C420044983B /* welcomeUser.cpp */; };
+		17CE2BAB263669A500E2E65D /* playGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CE2BA9263669A500E2E65D /* playGame.cpp */; };
+		17CF8DD62638BC54001EC405 /* validation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CF8DD42638BC54001EC405 /* validation.cpp */; };
+		17CF8DDA2638BD52001EC405 /* tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CF8DD82638BD52001EC405 /* tests.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		1788C6B526365BB10044983B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1788C6BD26365C420044983B /* welcomeUser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = welcomeUser.cpp; sourceTree = "<group>"; };
 		1788C6BE26365C420044983B /* welcomeUser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = welcomeUser.hpp; sourceTree = "<group>"; };
+		17CE2BA9263669A500E2E65D /* playGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = playGame.cpp; sourceTree = "<group>"; };
+		17CE2BAA263669A500E2E65D /* playGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = playGame.hpp; sourceTree = "<group>"; };
+		17CF8DD42638BC54001EC405 /* validation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = validation.cpp; sourceTree = "<group>"; };
+		17CF8DD52638BC54001EC405 /* validation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = validation.hpp; sourceTree = "<group>"; };
+		17CF8DD82638BD52001EC405 /* tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tests.cpp; sourceTree = "<group>"; };
+		17CF8DD92638BD52001EC405 /* tests.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tests.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +71,13 @@
 			children = (
 				1788C6B526365BB10044983B /* main.cpp */,
 				1788C6BD26365C420044983B /* welcomeUser.cpp */,
+				17CF8DD42638BC54001EC405 /* validation.cpp */,
+				17CF8DD52638BC54001EC405 /* validation.hpp */,
 				1788C6BE26365C420044983B /* welcomeUser.hpp */,
+				17CE2BA9263669A500E2E65D /* playGame.cpp */,
+				17CE2BAA263669A500E2E65D /* playGame.hpp */,
+				17CF8DD82638BD52001EC405 /* tests.cpp */,
+				17CF8DD92638BD52001EC405 /* tests.hpp */,
 			);
 			path = cpp_hangman;
 			sourceTree = "<group>";
@@ -124,7 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1788C6B626365BB10044983B /* main.cpp in Sources */,
+				17CE2BAB263669A500E2E65D /* playGame.cpp in Sources */,
+				17CF8DD62638BC54001EC405 /* validation.cpp in Sources */,
 				1788C6BF26365C420044983B /* welcomeUser.cpp in Sources */,
+				17CF8DDA2638BD52001EC405 /* tests.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

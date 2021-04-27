@@ -19,7 +19,8 @@
 #include <iomanip>
 
 
-int main() {
+int main() {    
+    
     
     welcome::playerReady();
     
