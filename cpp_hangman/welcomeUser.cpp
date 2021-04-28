@@ -6,7 +6,8 @@
 //
 
 #include "welcomeUser.hpp"
-#include "validation.hpp"
+#include "playGame.hpp"
+
 
 #include <iostream>
 
@@ -35,6 +36,7 @@ namespace welcome {
                 } else if (playerReply == "y") {
                     
                     std::cout << "Okay, let's do this!\n";
+                    play::playGame();
                     ready = true;
                     break;
                     

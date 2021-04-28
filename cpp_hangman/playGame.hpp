@@ -10,4 +10,11 @@
 
 #include <stdio.h>
 
+namespace play {
+
+void playGame();
+
+
+}
+
 #endif /* playGame_hpp */

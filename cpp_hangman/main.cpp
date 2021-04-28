@@ -9,6 +9,7 @@
 
 // User Defined
 #include "welcomeUser.hpp" //Imports welcome functions.
+#include "playGame.hpp"
 
 // Third Party Libraries
 
